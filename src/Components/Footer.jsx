@@ -1,5 +1,4 @@
 import SocialIcons from "./SocialIcons";
-import { Flex } from "./Styled/Flex.styled";
 import { Container } from "./Styled/Container.styled";
 import { StyledFooter } from "./Styled/Footer.styled";
 import { Grid } from "./Styled/Grid.styled";
