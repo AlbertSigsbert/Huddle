@@ -21,6 +21,12 @@ p{
     text-align: right;
 }
 
+@media (max-width: ${({ theme }) => theme.media.tablet}) {
+    
+    p{
+        text-align: center;
+    }
+}
 @media (max-width: ${({ theme }) => theme.media.mobile}) {
     text-align: center;
 

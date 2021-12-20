@@ -46,4 +46,11 @@ export const StyledCard = styled.div`
       width: 100%;
     }
   }
+  @media (max-width: ${({ theme }) => theme.media.tablet}) {
+    padding: 40px;
+    column-gap: 1em;
+    img {
+      width: 80%;
+    }
+  }
 `;

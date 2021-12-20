@@ -14,6 +14,11 @@ export const Grid = styled.div`
 
  
 
+  @media (max-width: ${({ theme }) => theme.media.tablet}) {
+    grid-template-columns: 2fr;
+    column-gap: 0;
+  }
+
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
     grid-template-columns: 1fr;
     column-gap: 0;

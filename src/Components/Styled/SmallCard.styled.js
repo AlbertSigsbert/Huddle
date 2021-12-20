@@ -21,6 +21,16 @@ export const StyledSmallCard = styled.div`
     padding:20px 60px;
   }
 
+  @media (max-width: ${({ theme }) => theme.media.tablet}) {
+    width:80%;
+    padding:40px;
+    transform: translateY(70%);
+
+    h2{
+        font-size: 1.2em;
+    }
+
+  }
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
     width:100%;
     padding:40px;

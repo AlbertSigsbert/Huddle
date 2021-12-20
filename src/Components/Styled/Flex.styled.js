@@ -4,8 +4,6 @@ export const Flex = styled.div`
   display: flex;
   align-items: center;
  
-  
-
   & > div,
   & > ul {
     flex: 1;
@@ -20,6 +18,25 @@ export const Flex = styled.div`
     font-weight: 400;
     font-size:1em;
    
+  }
+
+  @media (max-width: ${({ theme }) => theme.media.tablet}) {
+   flex-direction: column;
+   text-align: center;
+
+   h1{
+    font-size: 2em;
+  
+  }
+ 
+  p{
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.2;
+  }
+  button{
+    margin-bottom: 2em;
+  }
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
