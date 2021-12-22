@@ -14,7 +14,7 @@ function Header(props) {
           </Nav>
 
           <Flex>
-            <div role="main">
+            <div>
               <h1>
                 <span> Build The Community</span>
                 <span> Your Fans Will Love</span>
@@ -24,7 +24,7 @@ function Header(props) {
                 voice, but so does your audience. Create connections with your
                 users as you engage in genuine discussion.
               </p>
-              <Button bg="hsl(322, 100%, 66%)" color="#fff">
+              <Button bg="hsl(322, 100%, 66%)" textColor="#fff">
                 Get Started For Free
               </Button>
             </div>

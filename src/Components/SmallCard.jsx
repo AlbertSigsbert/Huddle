@@ -7,7 +7,7 @@ function SmallCard() {
     <StyledSmallCard>
       <div>
         <h2>Ready To Build Your Community?</h2>
-        <Button bg="hsl(322, 100%, 66%)" color="#fff">Get Started For Free</Button>
+        <Button bg="hsl(322, 100%, 66%)" textColor="#fff">Get Started For Free</Button>
       </div>
     </StyledSmallCard>
   );

@@ -22,13 +22,12 @@ function App() {
   };
   return (
     <HelmetProvider>
-    <ThemeProvider theme={theme}>
-      <>
+    <ThemeProvider  theme={theme}>
+      
         <Helmet>
-          <meta charSet="utf-8" />
           <title>Huddle</title>
           <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+          <link rel="preconnect" href="https://fonts.gstatic.com"></link>
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"></link>
         </Helmet>
         <GlobalStyles />
@@ -43,7 +42,7 @@ function App() {
         </Container>
 
         <Footer />
-      </>
+     
     </ThemeProvider>
     </HelmetProvider>
   );

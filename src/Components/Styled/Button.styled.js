@@ -9,7 +9,7 @@ font-weight:700;
 padding:15px 60px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 background-color: ${({bg}) => bg || '#fff'};
-color: ${({color}) => color || '#333'};
+color: ${({textColor}) => textColor || '#333'};
 
 &:hover{
     opacity: .9;
