@@ -5,13 +5,13 @@ function SocialIcons(props) {
     return (
         <StyledIcons>
             <li>
-                <a href="https://facebook.com">
+                <a href="https://facebook.com"  aria-label="Facebook">
                     <FaFacebook/>
                 </a>
-                <a href="https://instagram.com">
+                <a href="https://instagram.com"  aria-label="Instagram">
                     <FaInstagram/>
                 </a>
-                <a href="https://twitter.com">
+                <a href="https://twitter.com"  aria-label="Twitter">
                     <FaTwitter/>
                 </a>
             

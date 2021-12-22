@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledIcons = styled.div`
+export const StyledIcons = styled.ul`
 display: flex;
 justify-content: center;
 
