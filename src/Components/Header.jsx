@@ -14,7 +14,7 @@ function Header(props) {
           </Nav>
 
           <Flex>
-            <div>
+            <div role="main">
               <h1>
                 <span> Build The Community</span>
                 <span> Your Fans Will Love</span>
