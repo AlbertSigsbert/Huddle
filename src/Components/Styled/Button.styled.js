@@ -15,5 +15,12 @@ color: ${({textColor}) => textColor || '#333'};
     opacity: .9;
     transform: scale(.98);
 }
+
+
+@media (max-width: ${({ theme }) => theme.media.mobile}) {
+    padding:12px 30px;
+    font-size:14px;
+}
+
 `
 

@@ -32,6 +32,7 @@ p{
 
     ul{
         padding: 0;
+        margin-bottom: 2rem;
     }
     p{
         text-align: center;
