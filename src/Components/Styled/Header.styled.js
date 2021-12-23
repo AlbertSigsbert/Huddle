@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   background-color: #ebfbff;
   background-image: url('./images/bg-hero-desktop.svg');
-  padding: 40px 0;
+  padding: 4rem 0;
 
   h1 {
     font-family: "Poppins" sans-serif;
