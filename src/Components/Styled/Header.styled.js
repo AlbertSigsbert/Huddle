@@ -24,12 +24,15 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin: 40px 0;
+ 
 
   /* url(${(bgImageDesktop)=> bgImageDesktop }) */
 `;
 
 export const Logo = styled.img`
+
+  width: 80%;
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
     width: 40%;
   }
