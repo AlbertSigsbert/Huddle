@@ -32,7 +32,7 @@ export const Nav = styled.nav`
 
 export const Logo = styled.img`
 
-  width: 80%;
+  
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
     width: 40%;
   }
