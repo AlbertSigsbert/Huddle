@@ -20,6 +20,9 @@ function App() {
       tablet: "768px",
     },
   };
+
+  
+
   return (
     <HelmetProvider>
     <ThemeProvider  theme={theme}>
