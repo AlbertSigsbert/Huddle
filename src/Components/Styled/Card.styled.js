@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledCard = styled.section`
+export const StyledCard = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
