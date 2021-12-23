@@ -34,7 +34,7 @@ function App() {
           ></link>
         </Helmet>
         <GlobalStyles />
-
+        <main>
         <Header />
         <article>
           <Container>
@@ -46,6 +46,8 @@ function App() {
         </article>
 
         <Footer />
+        </main>
+      
       </ThemeProvider>
     </HelmetProvider>
   );

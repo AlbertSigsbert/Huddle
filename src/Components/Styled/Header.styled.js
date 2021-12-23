@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHeader = styled.main`
+export const StyledHeader = styled.header`
   background-color: #ebfbff;
   background-image: url('./images/bg-hero-desktop.svg');
   padding: 40px 0;
